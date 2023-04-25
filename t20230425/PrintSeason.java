@@ -6,7 +6,7 @@ public class PrintSeason {
 	//---m월의 계절을 표시---//
 	static void printSeason(int m) {
 		switch (m) {
-		case 3: case 4: case 5: System.out.print("봄");
+		case 3: case 4: case 5: System.out.print("봄"); break;
 		case 6: case 7: case 8: System.out.print("여름"); break;
 		case 9: case 10: case 11: System.out.print("가을"); break;
 		case 1: case 2: case 12: System.out.print("겨울"); break;
