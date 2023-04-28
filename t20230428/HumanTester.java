@@ -3,25 +3,20 @@ package t20230428;
 public class HumanTester {
 
 	public static void main(String[] args) {
-		Human gildong = new Human();
-		Human chulsu = new Human();
+		Human gildong = new Human("길동", 170, 60);
+		Human chulsu = new Human("철수", 166, 72);
 		
-		gildong.name = "길동";
-		gildong.height = 170;
-		gildong.weight = 60;
+		gildong.gainWeight(3);		//길동이 3kg 쪘다
+		chulsu.reduceWeight(5);		//철수가 5kg 빠졌다
 		
-		chulsu.name = "철수";
-		chulsu.height = 166;
-		chulsu.weight = 72;
-		
-		System.out.println("이름:" + gildong.name);			//gildong의 데이터표시
-		System.out.println("신장:" + gildong.height + "cm");
-		System.out.println("체중:" + gildong.weight + "kg");
+		System.out.println("이름:" + gildong.getName());			//gildong의 데이터표시
+		System.out.println("신장:" + gildong.getHeight() + "cm");
+		System.out.println("체중:" + gildong.getWeight() + "kg");
 		System.out.println();
 		
-		System.out.println("이름:" + chulsu.name);
-		System.out.println("신장:" + chulsu.height + "cm"); 	//chulsu의 데이터표시
-		System.out.println("체중:" + chulsu.weight + "kg");
+		System.out.println("이름:" + chulsu.getName());
+		System.out.println("신장:" + chulsu.getHeight() + "cm"); 	//chulsu의 데이터표시
+		System.out.println("체중:" + chulsu.getWeight() + "kg");
 		
 	}
 
