@@ -44,6 +44,14 @@ public class Day {
 		return String.format("%04d년 %02d월 %02d일(%s)", year, month, date, wd[day0fWeek()]);
 	
 	}
+	public String leftDay0fYear() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public boolean isLeap() {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }
 	
 	
