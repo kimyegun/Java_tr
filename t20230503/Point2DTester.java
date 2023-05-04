@@ -3,8 +3,14 @@ package t20230503;
 public class Point2DTester {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		for (int i = 0; i < 36; i++) {
 
-	}
+			Point2D p1 = new Point2D();
 
-}
+			System.out.printf("%2d %s\n, i, p1");
+
+			}
+
+			}
+
+			}

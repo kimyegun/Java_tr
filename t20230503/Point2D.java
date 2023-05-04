@@ -1,7 +1,8 @@
 package t20230503;
 
-import java.util.GregorianCialendar;
 import static java.util.GregorianCialendar.*;
+
+import java.util.GregorianCalendar;
 
 public class Point2D {
 	
@@ -50,7 +51,7 @@ public class Point2D {
 
 	//마지막에 부여한 식별 번호
 
-	public static int getCounter() {return Counter;}
+	public static int getCounter() {return counter;}
 
 	//---문자열 표현 "(x, y)"을 반환---//
 
@@ -71,6 +72,7 @@ public class Point2D {
 	System.out.printf("오늘 %d개의 좌표가 생성됐습니다.\n", counter);
 
 	}
+	this.x = x;
 
 	}
 
@@ -88,9 +90,3 @@ public class Point2D {
 
 	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
-}
